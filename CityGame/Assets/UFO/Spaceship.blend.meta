@@ -1,0 +1,161 @@
+fileFormatVersion: 2
+guid: 31823de276e6ca240bd51ab56f914159
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Bone_at_01
+    100004: Bone_at_02
+    100006: Bone_at_03
+    100008: Bone_at_04
+    100010: Bone_cannon_weapon_L
+    100012: Bone_cannon_weapon_R
+    100014: Bone_door_01_L
+    100016: Bone_door_01_R
+    100018: Bone_door_02_L
+    100020: Bone_door_02_R
+    100022: Bone_Drv_weapon_L
+    100024: Bone_Drv_weapon_R
+    100026: Bone_main_weapon_L
+    100028: Bone_main_weapon_R
+    100030: Bone_ship
+    100032: Bone_ship_root
+    100034: Good_ship
+    100036: shape_root
+    100038: shape_root_001
+    100040: shape_root_002
+    100042: shape_root_003
+    100044: Shape_ship
+    100046: //RootNode
+    100048: Weapon_good_ship
+    400000: Armature
+    400002: Bone_at_01
+    400004: Bone_at_02
+    400006: Bone_at_03
+    400008: Bone_at_04
+    400010: Bone_cannon_weapon_L
+    400012: Bone_cannon_weapon_R
+    400014: Bone_door_01_L
+    400016: Bone_door_01_R
+    400018: Bone_door_02_L
+    400020: Bone_door_02_R
+    400022: Bone_Drv_weapon_L
+    400024: Bone_Drv_weapon_R
+    400026: Bone_main_weapon_L
+    400028: Bone_main_weapon_R
+    400030: Bone_ship
+    400032: Bone_ship_root
+    400034: Good_ship
+    400036: shape_root
+    400038: shape_root_001
+    400040: shape_root_002
+    400042: shape_root_003
+    400044: Shape_ship
+    400046: //RootNode
+    400048: Weapon_good_ship
+    2100000: Ship
+    2100002: Aros
+    2100004: Weapon
+    2300000: shape_root
+    2300002: shape_root_001
+    2300004: shape_root_002
+    2300006: shape_root_003
+    2300008: Shape_ship
+    3300000: shape_root
+    3300002: shape_root_001
+    3300004: shape_root_002
+    3300006: shape_root_003
+    3300008: Shape_ship
+    4300000: Good_ship
+    4300002: Weapon_good_ship
+    4300004: shape_root_003
+    4300006: shape_root_002
+    4300008: shape_root_001
+    4300010: shape_root
+    4300012: Shape_ship
+    7400000: Default Take
+    9500000: //RootNode
+    13700000: Good_ship
+    13700002: Weapon_good_ship
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
