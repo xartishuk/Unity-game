@@ -42,7 +42,7 @@ public class UFOMovement : MonoBehaviour {
         CheckButtons();
         ChangeSpeed();
         Move();
-        Rotate();
+        Tilt();
     }
 
     private void CheckButtons()
@@ -344,8 +344,8 @@ public class UFOMovement : MonoBehaviour {
         rb.velocity = currentSpeed;
     }
 
-    private void Rotate()
+    private void Tilt()
     {
-        rb.angularVelocity = currentSpeed;
+        
     }
 }

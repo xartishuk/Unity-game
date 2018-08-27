@@ -6,6 +6,7 @@ public class CameraFollow : MonoBehaviour {
 
     public Transform followedObject;
     public Vector3 offset;
+    public float lagBehindModifier = 25f;
 
 	// Use this for initialization
 	void Start () {
@@ -13,9 +14,10 @@ public class CameraFollow : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
-        
-        transform.position = followedObject.position + offset;
+	void FixedUpdate () {
+
+        Vector3 desiredPosition = followedObject.position + offset;
+        transform.position = Vector3.Lerp(transform.position, desiredPosition, lagBehindModifier * Time.fixedDeltaTime);
 
 	}
 }
