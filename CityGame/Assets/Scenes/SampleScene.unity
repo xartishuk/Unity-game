@@ -308,6 +308,7 @@ MonoBehaviour:
   speedLossOnStop: 50
   speedLossOnChangeDirection: 100
   speedScaling: 1
+  tiltScaling: 1
 --- !u!54 &318218186
 Rigidbody:
   m_ObjectHideFlags: 0

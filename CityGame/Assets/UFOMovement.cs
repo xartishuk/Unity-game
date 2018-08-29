@@ -55,6 +55,9 @@ public class UFOMovement : MonoBehaviour {
     {
         verticalInput = Input.GetAxis("Vertical");
         horizontalInput = Input.GetAxis("Horizontal");
+
+        Debug.Log("verticalInput = " + verticalInput);
+        Debug.Log("horizontalInput = " + horizontalInput);
         // UP & DOWN BUTTONS
     }
 
@@ -84,7 +87,15 @@ public class UFOMovement : MonoBehaviour {
         }
         else // Stopping
         {
-            currentSpeed.z -= Mathf.Sign(currentSpeed.z) * speedLossOnStop * Time.fixedDeltaTime * speedScaling;
+            float deltaSpeedLossOnStop = speedLossOnStop * Time.fixedDeltaTime * speedScaling;
+            if (Mathf.Abs(currentSpeed.z) > deltaSpeedLossOnStop)
+            {
+                currentSpeed.z -= Mathf.Sign(currentSpeed.z) * deltaSpeedLossOnStop;
+            }
+            else
+            {
+                currentSpeed.z = 0;
+            }
         }
         if (horizontalInput != 0) // Moving
         {
@@ -105,7 +116,15 @@ public class UFOMovement : MonoBehaviour {
         }
         else // Stopping
         {
-            currentSpeed.x -= Mathf.Sign(currentSpeed.x) * speedLossOnStop * Time.fixedDeltaTime * speedScaling;
+            float deltaSpeedLossOnStop = speedLossOnStop * Time.fixedDeltaTime * speedScaling;
+            if (Mathf.Abs(currentSpeed.x) > deltaSpeedLossOnStop)
+            {
+                currentSpeed.x -= Mathf.Sign(currentSpeed.x) * deltaSpeedLossOnStop;
+            }
+            else
+            {
+                currentSpeed.x = 0;
+            }
         }
 
         rb.velocity = currentSpeed;
