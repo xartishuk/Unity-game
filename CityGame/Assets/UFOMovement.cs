@@ -132,7 +132,7 @@ public class UFOMovement : MonoBehaviour {
 
     private void Tilt()
     {
-        transform.rotation = Quaternion.Euler(currentSpeed.z * tiltScaling, 0f, currentSpeed.x * tiltScaling * -1f);
+        transform.rotation = Quaternion.Euler(currentSpeed.z * tiltScaling, transform.rotation.eulerAngles.y, currentSpeed.x * tiltScaling * -1f);
     }
 
     // Update is called once per frame
